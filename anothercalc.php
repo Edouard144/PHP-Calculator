@@ -14,7 +14,7 @@
 
     <?php
    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $num = $_POST["num"]; // Corrected square brackets for retrieving form data
+    $num = $_POST["num"];
 
     echo "<h3>Multiplication Table for $num</h3>";
     
